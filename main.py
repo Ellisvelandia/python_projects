@@ -34,14 +34,30 @@
 #if the user is under 18 years old, print ("you are too young for this ride")
 #if the user is over 45 years old, print "You are too old for this ride."
 
-print("To get access to the roller coaster ride")
-age_checker = int(input("what is your age: "))
+# print("To get access to the roller coaster ride")
+# age_checker = int(input("what is your age: "))
 
-if age_checker >= 18 and age_checker <= 45:
-    print("enjoy the ride")
-elif age_checker < 18:
-    print("You are too young for this ride")
-elif age_checker > 45:
-    print("you are too old for this ride")
-else:
-    print("check your age")             
+# if age_checker >= 18 and age_checker <= 45:
+#     print("enjoy the ride")
+# elif age_checker < 18:
+#     print("You are too young for this ride")
+# elif age_checker > 45:
+#     print("you are too old for this ride")
+# else:
+#     print("check your age")             
+
+# count = 1
+
+# while count <= 5:
+#     print(count)
+    
+#     user_input = input("Enter 'exit' to end ")
+    
+#     if user_input.lower() == 'exit':
+#         print("Exiting the program. goodbye")
+#         break
+#     else:
+#         print("What do you mean? ")    
+    
+#     count += count 
+
