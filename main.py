@@ -61,3 +61,8 @@
     
 #     count += count 
 
+names = ["Luna", "Emma", "Karl", "Noah"]
+names[0] = "Ellis" 
+names.append("Ava")
+names.pop()
+print(names)
