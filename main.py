@@ -61,8 +61,49 @@
     
 #     count += count 
 
-names = ["Luna", "Emma", "Karl", "Noah"]
-names[0] = "Ellis" 
-names.append("Ava")
-names.pop()
-print(names)
+# names = ["Luna", "Emma", "Karl", "Noah"]
+# names[0] = "Ellis" 
+# names.append("Ava")
+# names.pop()
+# print(names)
+
+# numbers = [1,2,3,4,5]
+# new_numbers = []
+
+# for item in numbers:
+#     print(item)
+    
+    
+#     new_numbers.append(item + 1)    
+# print(new_numbers)    
+
+# customer = {
+#     "id": 101,
+#     "name": "Ellis",
+#     "phone": "555-1234",
+#     "premium_member": True
+# }
+
+# print(customer)
+# print(customer["id"])
+
+customers = [
+    {
+    "id": 101,
+    "name": "Ellis",
+    "phone": "555-1234",
+    "premium_member": True 
+    },
+    {
+     "id": 102,
+    "name": "crisanto",
+    "phone": "54444-222",
+    "premium_member": False
+    }
+]
+
+for customer in customers:
+    print(customer["id"])
+    print(customer["name"])
+    print(customer["phone"])
+    print(customer["premium_member"])
