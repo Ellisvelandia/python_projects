@@ -124,3 +124,16 @@
 #     print("Welcome back " + name)
 
 # greet("Ellis")    
+
+#this is a Note/comment
+# first_name = "Ellis"
+# last_name = "Velandia"
+# print("Hello there everyone learning! " + "My name is " + first_name + " and my last name is " + last_name)
+
+num_list = [1,2,3,4,5]
+total = 0
+
+for number in num_list:
+    total += number
+average = total / len(num_list)
+print(average)     
