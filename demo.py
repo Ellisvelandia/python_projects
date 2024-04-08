@@ -28,3 +28,15 @@ for string in options:
     valid_strings.append(string)
 
 print(valid_strings)    
+
+#Flattening a matrix (list of lists)
+matrix = [ [1,2,3], [4,5,6],[7,8,9]]
+flattened = []
+
+for row in matrix:
+    for num in row:
+        flattened.append(num)
+
+
+flattened = [num for row in matrix for num in row]
+print(flattened)
